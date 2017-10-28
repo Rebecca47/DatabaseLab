@@ -1,4 +1,4 @@
-# Technology-of-Database-Development
+# DatabaseLab
 
 Exercise for Technology of Database Development
 
@@ -28,15 +28,15 @@ See ⬆️⬆️⬆️ Here
  
  ```
 Start createTables...
-End createTables! time : 1266 ms
+End createTables! time : 424 ms
 Start insertData...
-End insertData! time : 24212 ms
-Start updatePrice...
-End updatePrice! time : 28835 ms
-Start updateHomeAddress...
-End updateHomeAddress! time : 6518 ms
-Start createEvent...
-End createEvent! time : 4 ms
+End insertData! time : 473 ms
+Start findWangxiaoxing...
+End findWangxiaoxing! time : 25 ms
+Start modifyPrice...
+End modifyPrice! time : 4 ms
+Start exchangeDormitory...
+End exchangeDormitory! time : 31 ms
  ```
  
  Running time is acceptable 😄
