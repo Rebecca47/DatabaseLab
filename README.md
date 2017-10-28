@@ -43,8 +43,6 @@ End createEvent! time : 4 ms
 
 ### Question2
 
-#### Diagram
-
 #### Data format
 
 ##### user.txt

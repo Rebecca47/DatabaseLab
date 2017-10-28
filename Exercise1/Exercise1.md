@@ -13,7 +13,9 @@
 | 订单表 | order(oid, cuid, cid, quantity, totalPrice, orderTime) |
 | 顾客表 | customer(cuid, cname, phone) |
 
-其中，brand为服装品牌，type为服装种类，launchYear为上市年份，year类型； orderTime为下单时间，dateTime类型 与时间比较相关的mysql函数：date_format, date_sub。
+其中，brand为服装品牌，type为服装种类，launchYear为上市年份，year类型； orderTime为下单时间，dateTime类型
+
+与时间比较相关的mysql函数：date_format, date_sub。
 
 1.请创建表order（要求：oid为主键，其余子段为不能为空）。
 
@@ -173,6 +175,7 @@ REVOKE DELETE ON `Customer` FROM 'Mike';
 | 提交记录表 |Commit(sha,total_add,total_delete,file,datetime,author) |
 | 文件更改表 | File(sha, filename, add_line, delete_line, datetime) |
 | 迭代表 | Deadline(id, start_day, end_day, name) |
+
 记录提交表中记录了项目代码提交的编号，提交的新增行数，删除行数，日期，提交作者。文件更改表中记录了项目文件提交的编号，文件名，文件增加的行数，文件删除的行数，提交的日期。迭代表中记录了项目每一个迭代的起止时间。
 
 1.删除提交记录表中增加代码行数大于5000行，删除代码行数小于100行的提交记录。
