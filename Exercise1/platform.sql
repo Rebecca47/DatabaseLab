@@ -1,32 +1,5 @@
 -- MySQL dump 10.13  Distrib 5.6.19, for osx10.7 (i386)
 --
--- Host: 127.0.0.1    Database: healthclub_homework
--- ------------------------------------------------------
--- Server version	5.6.23
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2015-10-21 23:18:28
--- MySQL dump 10.13  Distrib 5.6.19, for osx10.7 (i386)
---
 -- Host: 127.0.0.1    Database: platform_homework
 -- ------------------------------------------------------
 -- Server version	5.6.23
@@ -65,7 +38,7 @@ CREATE TABLE `platform_article` (
 
 LOCK TABLES `platform_article` WRITE;
 /*!40000 ALTER TABLE `platform_article` DISABLE KEYS */;
-INSERT INTO `platform_article` VALUES ('49c6bddccebcc25cf01d85291d733823','UzAZJvW1','css常用代码大全','代码大全的代码并不全','2015-09-23 22:38:01'),('818a13b79a2088e77d9b50f9d68fffe4','iHnbvVHS','软件工程师的青春','青春，是一段突如其来的成长','2015-09-29 23:42:48'),('e763d6a962ea4624e2e48a0d8b70a137','UzAZJvW1','数据库开发技术作业','作业的内容并不是很多，会做就好','2015-09-11 20:56:16'),('eef401802b96c800fa0cb7b6d0e775a5','UzAZJvW1','柠檬水的故事','夏天到了，程序员多喝柠檬水','2015-09-21 22:56:10'),('f5a4e21fbae1c7980595f2c6858e33d0','gbWTxmTM','软件工程：DBA是则样炼成的','时光可知，秋已凉','2015-09-23 20:44:58');
+INSERT INTO `platform_article` VALUES ('1','5','软件工程导论','这是一条测试数据，里面并没有讲软件工程','2015-09-20 13:23:33'),('2','5','晚上几点睡觉最好','看是不是单身咯','2015-09-23 09:20:50'),('3','5','早上几点起最好','最好不要起','2015-09-24 13:59:44'),('4','5','软件工程哪家强','山东有蓝翔，深圳富士康','2015-10-15 15:30:20'),('5','5','心好塞','出去跑跑就好了','2015-10-15 18:08:09'),('6','1','计算与软件工程一','这是一门必修课','2013-10-17 10:08:10'),('7','3','软绵绵','这是什么鬼','2015-10-10 08:00:03'),('8','2','计算与软件工程二','这也是一门必修课','2013-12-25 12:01:03'),('9','2','计算与软件工程三','这门课的老师和作业的老师是同一个！','2014-01-13 12:30:08');
 /*!40000 ALTER TABLE `platform_article` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -92,7 +65,7 @@ CREATE TABLE `platform_deal` (
 
 LOCK TABLES `platform_deal` WRITE;
 /*!40000 ALTER TABLE `platform_deal` DISABLE KEYS */;
-INSERT INTO `platform_deal` VALUES ('1ed0f1c66563bff397a5e55fb38b2189','818a13b79a2088e77d9b50f9d68fffe4','NuLi2j5Rucec4D6rx4GMnPNI',10,'2015-10-06 21:43:50'),('2fcab16db74efd8345c51529449f1171','49c6bddccebcc25cf01d85291d733823','NuLi2j5Rucec4D6rx4GMnPNI',12,'2015-10-07 11:29:37'),('60bf28056194e961bcd7940feb5c2ab3','818a13b79a2088e77d9b50f9d68fffe4','LZnFO2YtW0ROgmie9GR-AU',8,'2015-10-06 21:57:46'),('9c74670fb8426fa4acc94f5add38b791','f5a4e21fbae1c7980595f2c6858e33d0','NuNsBWEeKKuG1QFFIZK576e4',8,'2015-10-07 18:34:25');
+INSERT INTO `platform_deal` VALUES ('1','6','8',10,'2015-11-01 13:00:08'),('2','8','8',2,'2015-11-01 13:20:03'),('3','2','3',5,'2015-11-01 14:20:02'),('4','6','3',9,'2015-11-01 14:04:50'),('5','7','8',5,'2015-11-03 10:02:50'),('6','3','9',2,'2015-11-04 09:09:09');
 /*!40000 ALTER TABLE `platform_deal` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -117,7 +90,7 @@ CREATE TABLE `platform_reader` (
 
 LOCK TABLES `platform_reader` WRITE;
 /*!40000 ALTER TABLE `platform_reader` DISABLE KEYS */;
-INSERT INTO `platform_reader` VALUES ('LZnFO2YtW0ROgmie9GR-AU','Harlan','2015-10-06 21:56:57'),('NuA88jBl-MssJOquIz-49YNU','Carl','2015-09-24 15:46:38'),('NuFdeo1FO1VBtuKCg7-tmgoc','Aaron','2015-09-24 15:44:55'),('NuLi2j5Rucec4D6rx4GMnPNI','Fabian','2015-09-25 10:08:58'),('NuN9Kg3gXFKe5ZBeUZS1yNjc','Darren','2015-09-24 15:50:42'),('NuNsBWEeKKuG1QFFIZK576e4','Emmanuel','2015-09-25 10:08:58');
+INSERT INTO `platform_reader` VALUES ('1','adam','2013-05-20 10:00:08'),('10','zeus','2015-07-17 09:00:30'),('2','allan','2013-05-23 15:33:23'),('3','bob','2014-06-16 18:06:03'),('4','carren','2015-04-30 14:00:32'),('5','sunshine','2015-05-01 08:16:23'),('6','xiaoming','2015-05-15 16:23:43'),('7','jully','2015-09-19 00:00:14'),('8','zoe','2015-10-15 00:00:13'),('9','god','2015-08-13 10:03:56');
 /*!40000 ALTER TABLE `platform_reader` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -143,7 +116,7 @@ CREATE TABLE `platform_writer` (
 
 LOCK TABLES `platform_writer` WRITE;
 /*!40000 ALTER TABLE `platform_writer` DISABLE KEYS */;
-INSERT INTO `platform_writer` VALUES ('76if1crJ','Milley','wym@platform.com','2015-09-04 20:10:22'),('gbWTxmTM','Larua','mrlx@platform.com','2015-09-23 20:37:47'),('iHnbvVHS','Kimi','wzl@platform.com','2015-09-29 23:39:53'),('M1XKYowT','Soul','gxe@platform.com','2015-09-11 21:17:20'),('UzAZJvW1','Karen','jyt@platform.com','2015-09-04 09:30:27');
+INSERT INTO `platform_writer` VALUES ('1','Eddie','eddie@platform.com','2013-01-01 10:00:08'),('2','Ruby Pier','ruby_pier@platform.com','2013-02-14 18:08:10'),('3','Joe','joe@platform.com','2014-02-14 08:00:53'),('4','Dominguez','domin@platform.com','2015-05-15 14:23:07'),('5','Karen','karen@platform.com','2015-09-19 13:58:35');
 /*!40000 ALTER TABLE `platform_writer` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -156,4 +129,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-10-21 23:18:28
+-- Dump completed on 2015-11-07 22:26:04

@@ -279,7 +279,7 @@ SELECT
   w.writer_name
 FROM `platform_article` a, `platform_writer` w, `platform_deal` d, `platform_reader` r
 WHERE a.article_id = d.article_id AND d.reader_id = r.reader_id
-      AND a.writer_id = w.writer_id AND r.reader_name = 'Fabian'
+      AND a.writer_id = w.writer_id AND r.reader_name = 'zoe'
 ORDER BY d.create_time DESC
 LIMIT 3;
 ```
